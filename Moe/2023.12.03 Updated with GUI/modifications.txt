@@ -1,0 +1,11 @@
+modification 1: changed the class type of the file attribute from TextEditor to FileBtn
+
+modification 2: in the file manager class, the methods: createNewFile(), closeFile(), and navigateToNextFile() were modified to accept and/or return objects of type FileBtn class. Note that navigateToNextFile() was previously named navigateToFile(). Moreover, the underlying data structure is a circular doubly linked list now instead of a doubly linked list. Lastly, 2 methods: closeAll() and displayOpenFiles() are now useless due to the existence of a GUI
+
+modification 3: in the BinarySearchTree class, a new method has been added which is clear(). The display() and displayTree() methods are not needed
+
+modification 4: in the TextEditor class, the displayTree() method is not needed
+
+modification 5: 2 completely new classes have been created, which are the FileBtn and ActionButton classes
+
+Note: I commented out all the not needed methods in case we needed them later on
